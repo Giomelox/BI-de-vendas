@@ -9,7 +9,7 @@ Formatação de datas no padrão dd/mm/yyyy.
 
 Criação de nova planilha BI Mix e Novo - Frios e Secos.xlsx com 4 abas organizadas por tipo e cliente.
 
-Geração da planilha de rebaixa REBAIXA FRIOS NOVO.xlsx com:
+Geração das planilhas de rebaixa REBAIXA FRIOS NOVO.xlsx; REBAIXA SECOS NOVO.xlsx; REBAIXA FRIOS MIX.xlsx; REBAIXA SECOS MIX.xlsx com:
 
 Agrupamento por cliente.
 
@@ -22,7 +22,7 @@ Estilo visual com cores, negrito, bordas e alinhamento.
 Formatação monetária (R$) para colunas específicas.
 
 ## Observações
-A função rebaixa_NOVO_frios() é responsável por gerar a planilha final de rebaixas.
+As funções são responsáveis por gerar as planilhas finais de rebaixas.
 
 O mapeamento de códigos e preços depende do campo SKU Description. É importante garantir que os nomes estejam limpos e padronizados.
 
@@ -37,4 +37,10 @@ Ao final, será gerado o arquivo:
 
 BI Mix e Novo - Frios e Secos.xlsx: Dados filtrados por tipo e cliente.
 
-REBAIXA FRIOS NOVO.xlsx: Tabela formatada de rebaixas para o cliente NOVO.
+REBAIXA FRIOS NOVO.xlsx: Tabela formatada de rebaixas dos frios para o cliente NOVO.
+
+REBAIXA SECOS NOVO.xlsx: Tabela formatada de rebaixas dos secos para o cliente NOVO.
+
+REBAIXA FRIOS MIX.xlsx: Tabela formatada de rebaixas dos frios para o cliente MIX.
+
+REBAIXA FRIOS SECOS.xlsx: Tabela formatada de rebaixas dos secos para o cliente MIX.
