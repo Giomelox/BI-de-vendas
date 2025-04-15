@@ -1,6 +1,6 @@
-## Geração de Planilha de Rebaixas para Produtos
+# Geração de Planilha de Rebaixas para Produtos
 
-# Funcionalidades
+## Funcionalidades
 Leitura de dados da planilha bi_semanal.xlsx.
 
 Filtragem de clientes com nomes específicos.
@@ -21,14 +21,14 @@ Estilo visual com cores, negrito, bordas e alinhamento.
 
 Formatação monetária (R$) para colunas específicas.
 
-# Observações
+## Observações
 A função rebaixa_NOVO_frios() é responsável por gerar a planilha final de rebaixas.
 
 O mapeamento de códigos e preços depende do campo SKU Description. É importante garantir que os nomes estejam limpos e padronizados.
 
 A execução atual realiza o mapeamento dentro do loop, o que pode ser otimizado usando .merge() ao final da montagem do DataFrame.
 
-# Como Executar
+## Como Executar
 Instale os pacotes necessários:
 - pip install pandas openpyxl
 - execute o código
